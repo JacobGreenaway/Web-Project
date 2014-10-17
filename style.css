@@ -53,3 +53,57 @@ a:active {text-decoration: none;  color: black;}
 
 /* End of Reset */
 
+/* fonts */
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(fonts/OpenSans-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+#container {
+	/*background-color: #78CDDE;*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100vh;
+	background-image: url('images/struckaxiom.png');
+}
+
+h1 {
+	font-family: OpenSans-Light;
+	font-size: 72pt;
+	text-align: center;
+}
+
+#sub {
+	font-family: OpenSans-Regular;
+	font-size: 32pt;
+	text-align: center;
+	position: fixed;
+  	top: 70%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	color: grey;
+}
+
+#title{
+	min-width: 1065px;
+	position: fixed;
+  	top: 55%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+#container img {
+	position: fixed;
+  	top: 25%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	width: 400px;
+ 	height: 400px;
+}
+
